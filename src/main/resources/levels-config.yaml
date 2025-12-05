@@ -1,0 +1,23 @@
+levels:
+  - range: "1-9"
+    experience: 100
+  - range: "10-19"
+    experience: 110
+  - range: "20-29"
+    experience: 120
+  - range: "30-39"
+    experience: 150
+  - range: "40-49"
+    experience: 190
+  - range: "50-59"
+    experience: 240
+  - range: "60-69"
+    experience: 300
+  - range: "70-79"
+    experience: 370
+  - range: "80-89"
+    experience: 450
+  - range: "90-99"
+    experience: 540
+  - range: "100-"
+    experience: 0
