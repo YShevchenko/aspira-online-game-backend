@@ -1,0 +1,13 @@
+services:
+  imaginary-online-game-app:
+    build: .
+    ports:
+      - "8088:8088"
+    environment:
+      - SPRING_PROFILES_ACTIVE=default
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:8088/actuator/health"]
+      interval: 5s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
